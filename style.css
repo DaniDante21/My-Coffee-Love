@@ -1,0 +1,66 @@
+  .text-brown2 {
+    color: #ff6a00;
+  }
+
+  .text.white {
+    color: white;
+  }
+
+  img {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    height: 50%;
+  }
+
+  #center1 {
+    color: white;
+    text-align: center;
+  }
+
+  .center1 {
+    color: white;
+    text-align: center;
+  }
+
+  .text-outline-white{
+    color: white;
+    -webkit-text-stroke: 1px black;
+  }
+
+
+    .wrapper {
+      position: relative;
+      height: 100vh;
+    }
+
+    .background1 {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: linear-gradient(to top, #000, #444);
+      z-index: 1;
+    }
+
+    .background2 {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: linear-gradient(to top, rgba(255, 255, 255, 0.5), transparent);
+      z-index: 2;
+    }
+
+@font-face {
+  font-family: 'Quintessential';
+  src: url('/font/Quintessential/Quintessential-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.custom-font {
+  font-family: 'Quintessential', cursive;
+}
