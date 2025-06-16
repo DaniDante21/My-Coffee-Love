@@ -64,3 +64,43 @@
 .custom-font {
   font-family: 'Quintessential', cursive;
 }
+
+/* UNTUK TAGLINE */
+
+.tagline-container {
+  padding: 20px 10px 0 10px;
+  max-width: 80%;
+  background: linear-gradient(to right, black, rgba(90, 40, 23, 0));
+}
+
+.tagline-title {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 2.5rem; /* default untuk layar sedang */
+  color: white;
+  margin-bottom: 10px;
+}
+
+.tagline-subtitle {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1.2rem;
+  color: white;
+  text-shadow: 2px 2px 0 black;
+  margin-bottom: 10px;
+  max-width: 100%;
+}
+
+/* Responsif untuk HP */
+@media (max-width: 768px) {
+  .tagline-title {
+    font-size: 1.5rem;
+  }
+
+  .tagline-subtitle {
+    font-size: 1rem;
+  }
+
+  .tagline-container {
+    max-width: 100%;
+    padding-right: 10px;
+  }
+}
